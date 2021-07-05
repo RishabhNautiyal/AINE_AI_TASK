@@ -24,6 +24,7 @@ header {
   font-size: 17px;
   border: none;
   border-radius: 1rem;
+  border-color: gray;
 }
 .insert p {
   margin-left: 1.8rem;
@@ -35,17 +36,18 @@ header {
   margin-top: 17rem;
   margin-left: 40rem;
 }
-.card #upload {
+.card {
   position: absolute;
   width: 8rem;
   height: 8rem;
   margin-top: 18rem;
   margin-left: 18rem;
   text-align: center;
-  background-color: url("/img/");
   border: none;
 }
-.card span {
+.card a {
+  text-decoration: none;
+  color: gray;
   margin-top: 3rem;
   text-align: center;
 }
