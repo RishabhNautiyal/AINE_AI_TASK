@@ -14,13 +14,16 @@ header {
   background: white;
   height: 16%;
 }
-.insert .card {
+.insert #card {
   position: absolute;
   width: 53rem;
   height: 2rem;
   margin-top: 14rem;
   margin-left: 18rem;
-  border-radius: 3rem;
+  float: right;
+  font-size: 17px;
+  border: none;
+  border-radius: 1rem;
 }
 .insert p {
   margin-left: 1.8rem;
@@ -31,14 +34,16 @@ header {
   height: 2rem;
   margin-top: 17rem;
   margin-left: 40rem;
-  border-radius: 3rem;
 }
-.card {
+.card #upload {
   position: absolute;
   width: 8rem;
   height: 8rem;
   margin-top: 18rem;
   margin-left: 18rem;
+  text-align: center;
+  background-color: url("/img/");
+  border: none;
 }
 .card span {
   margin-top: 3rem;
