@@ -1,0 +1,154 @@
+.background {
+  position: fixed;
+  background: whitesmoke;
+}
+.container {
+  display: flexbox;
+  margin-top: 10rem;
+  margin-left: 20rem;
+}
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background: white;
+  height: 16%;
+}
+.insert .card {
+  position: absolute;
+  width: 53rem;
+  height: 2rem;
+  margin-top: 14rem;
+  margin-left: 18rem;
+  border-radius: 3rem;
+}
+.insert p {
+  margin-left: 1.8rem;
+}
+.text {
+  position: absolute;
+  width: 38rem;
+  height: 2rem;
+  margin-top: 17rem;
+  margin-left: 40rem;
+  border-radius: 3rem;
+}
+.card {
+  position: absolute;
+  width: 8rem;
+  height: 8rem;
+  margin-top: 18rem;
+  margin-left: 18rem;
+}
+.card span {
+  margin-top: 3rem;
+  text-align: center;
+}
+.sidebar-container {
+  position: fixed;
+  width: 100px;
+  height: 100%;
+  left: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: whitesmoke;
+  cursor: pointer;
+  color: #fff;
+  margin-top: 0;
+  box-shadow: 4px 7px 10px rgba(87, 85, 85, 0.4);
+}
+
+.sidebar-logo {
+  padding: 10px 15px 10px 30px;
+  font-size: 3rem;
+  color: black;
+  background-color: whitesmoke;
+  margin-left: -1px;
+}
+
+.sidebar-navigation {
+  width: 100px;
+  height: 208px;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  position: relative;
+}
+
+.sidebar-navigation {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  line-height: 20px;
+}
+
+.sidebar-navigation .icon1 {
+  padding: 10px 15px 10px 30px;
+  display: flex;
+  color: black;
+  width: 9vw;
+  height: 8vh;
+  align-content: center;
+  margin-left: 2px;
+}
+.sidebar-navigation .icon1 p {
+  margin-top: 8px;
+}
+.sidebar-navigation .icon2 {
+  padding: 10px 15px 10px 30px;
+  display: flex;
+  color: black;
+  width: 9vw;
+  height: 8vh;
+  align-content: center;
+  margin-left: 2px;
+  margin-top: 40px;
+}
+.sidebar-navigation .icon3 {
+  padding: 10px 15px 10px 30px;
+  display: flex;
+  color: black;
+  width: 9vw;
+  height: 8vh;
+  align-content: center;
+  margin-left: 2px;
+  margin-top: 40px;
+}
+
+.sidebar-navigation li :active,
+.sidebar-navigation li :hover {
+  text-decoration: none;
+  outline: none;
+}
+.sidebar-navigation li::before {
+  background-color: rgb(200, 215, 243);
+  position: absolute;
+  content: "";
+  height: 80%;
+  margin-top: 0.1rem;
+  -webkit-transition: width 0.3s ease-in;
+  transition: width 0.3s ease-in;
+  width: 11px;
+  border-left: 1.8px solid rgb(29, 29, 252);
+  height: 80px;
+  z-index: -1;
+}
+
+.sidebar-navigation li:hover::before {
+  width: 100%;
+}
+
+.content {
+  margin-left: 8.9rem;
+  color: gray;
+  margin-top: 7.9rem;
+}
+#img {
+  transform: rotate(178deg);
+  width: 1rem;
+  margin-bottom: 4px;
+  color: gray;
+}
+.content span {
+  margin-left: -2px;
+}
